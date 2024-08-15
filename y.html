@@ -1,154 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelas Tradingku</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            color: #343a40;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-
-        #main-header {
-            background-color: #007bff;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        #main-header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-
-        #explanation {
-            padding: 40px;
-            background: #fff;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        #explanation h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-
-        #plans {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 40px 0;
-        }
-
-        .plan {
-            background: #fff;
-            padding: 20px;
-            margin: 10px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-
-        .plan:hover {
-            transform: scale(1.05);
-        }
-
-        .plan h2 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-            color: #007bff;
-        }
-
-        .plan p {
-            margin-bottom: 20px;
-            color: #6c757d;
-        }
-
-        .plan a {
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-        }
-
-        .plan a:hover {
-            background-color: #0056b3;
-        }
-
-        #photos {
-            text-align: center;
-            margin-top: 40px;
-        }
-
-        #photos img {
-            width: 300px;
-            margin: 10px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #343a40;
-            color: #fff;
-            margin-top: 40px;
-        }
-    </style>
+    <title>Kelas Trading</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header id="main-header">
-        <div class="container">
-            <h1>Kelas Tradingku</h1>
-        </div>
+    <header>
+        <h1>Kelas Trading</h1>
     </header>
-
-    <div class="container">
-        <section id="explanation">
-            <h2>Apa itu Kelas Tradingku?</h2>
-            <p>Kelas Tradingku adalah program pelatihan trading yang dirancang untuk membantu Anda memahami pasar finansial dan meningkatkan keterampilan trading Anda. Kelas ini tersedia dalam dua plan: bulanan dan tahunan, dengan materi yang disesuaikan dengan kebutuhan Anda.</p>
+    <main>
+        <section id="kelas-trading">
+            <h2>Tentang Kelas Tradingku</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
         </section>
-
         <section id="plans">
+            <h2>Pilih Rencana Kelas Anda</h2>
             <div class="plan">
-                <h2>Plan Bulanan</h2>
-                <p>Dapatkan akses ke materi dan pelatihan intensif setiap bulan.</p>
-                <a href="https://forms.gle/link-monthly" target="_blank">Daftar Plan Bulanan</a>
+                <h3>Monthly Plan</h3>
+                <p>Rp 500.000/bulan</p>
+                <a href="https://forms.gle/[monthly-form-id]" target="_blank" class="btn">Daftar Sekarang</a>
             </div>
             <div class="plan">
-                <h2>Plan Tahunan</h2>
-                <p>Nikmati akses penuh selama setahun dengan keuntungan ekstra dan konten premium.</p>
-                <a href="https://forms.gle/link-yearly" target="_blank">Daftar Plan Tahunan</a>
+                <h3>Yearly Plan</h3>
+                <p>Rp 5.000.000/tahun</p>
+                <a href="https://forms.gle/[yearly-form-id]" target="_blank" class="btn">Daftar Sekarang</a>
             </div>
         </section>
-
-        <section id="photos">
-            <h2>Galeri Kelas Tradingku</h2>
-            <img src="foto1.jpg" alt="Foto 1">
-            <img src="foto2.jpg" alt="Foto 2">
-            <img src="foto3.jpg" alt="Foto 3">
+        <section id="gallery">
+            <h2>Foto Kelas Trading</h2>
+            <div class="gallery-container">
+                <img src="image1.jpg" alt="Foto Kelas Trading 1">
+                <img src="image2.jpg" alt="Foto Kelas Trading 2">
+                <img src="image3.jpg" alt="Foto Kelas Trading 3">
+            </div>
         </section>
-    </div>
-
+    </main>
     <footer>
-        <p>&copy; 2024 Kelas Tradingku. All Rights Reserved.</p>
+        <p>&copy; 2023 Kelas Trading</p>
     </footer>
 </body>
 </html>
