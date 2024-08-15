@@ -6,68 +6,81 @@
     <title>Kelas Tradingku</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #343a40;
         }
 
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 1200px;
             margin: auto;
-            overflow: hidden;
+            padding: 20px;
         }
 
         #main-header {
-            background-color: #333;
+            background-color: #007bff;
             color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #f4f4f4 3px solid;
+            padding: 20px 0;
+            text-align: center;
         }
 
         #main-header h1 {
-            text-align: center;
-            text-transform: uppercase;
             margin: 0;
             font-size: 2.5em;
         }
 
         #explanation {
-            padding: 20px;
+            padding: 40px;
             background: #fff;
             margin: 20px 0;
             border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        #explanation h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
         }
 
         #plans {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-around;
-            margin: 20px 0;
+            margin: 40px 0;
         }
 
         .plan {
             background: #fff;
             padding: 20px;
+            margin: 10px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 45%;
+            width: 300px;
             text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .plan:hover {
+            transform: scale(1.05);
         }
 
         .plan h2 {
             font-size: 1.5em;
             margin-bottom: 10px;
+            color: #007bff;
         }
 
         .plan p {
             margin-bottom: 20px;
+            color: #6c757d;
         }
 
         .plan a {
-            background-color: #333;
+            background-color: #007bff;
             color: #fff;
             padding: 10px 20px;
             text-decoration: none;
@@ -76,19 +89,27 @@
         }
 
         .plan a:hover {
-            background-color: #555;
+            background-color: #0056b3;
         }
 
         #photos {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 40px;
         }
 
         #photos img {
-            width: 30%;
+            width: 300px;
             margin: 10px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #343a40;
+            color: #fff;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -125,5 +146,9 @@
             <img src="foto3.jpg" alt="Foto 3">
         </section>
     </div>
+
+    <footer>
+        <p>&copy; 2024 Kelas Tradingku. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
